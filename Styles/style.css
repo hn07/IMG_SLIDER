@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 body{
     background-color: rgb(227, 216, 216);
     overflow: hidden;
@@ -78,6 +79,7 @@ body{
     z-index: 10;
 }
 .item .name{
+    font-family: 'Mali', cursive;
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 10px;
@@ -85,6 +87,7 @@ body{
     animation: showcontent 1s ease-in-out 1 forwards;
 }
 .item .des{
+    /* font-family: 'Mali', cursive; */
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -92,6 +95,7 @@ body{
     animation: showcontent 1.5s ease-in-out 1 forwards;
 }
 .item button{
+    font-family: 'Mali', cursive;
     font-size: 17px;
     background-color: #ff3;
     padding: 15px;
